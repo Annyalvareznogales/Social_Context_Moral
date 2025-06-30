@@ -1,0 +1,271 @@
+
+Experimento: baseline
+
+Dataset POZZI: 
+{
+  "0": {
+    "precision": 0.6896551724137931,
+    "recall": 1.0,
+    "f1-score": 0.8163265306122449,
+    "support": 20.0
+  },
+  "1": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 2.0
+  },
+  "2": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 4.0
+  },
+  "3": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 1.0
+  },
+  "4": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 4.0
+  },
+  "5": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 1.0
+  },
+  "accuracy": 0.625,
+  "macro avg": {
+    "precision": 0.1149425287356322,
+    "recall": 0.16666666666666666,
+    "f1-score": 0.1360544217687075,
+    "support": 32.0
+  },
+  "weighted avg": {
+    "precision": 0.4310344827586207,
+    "recall": 0.625,
+    "f1-score": 0.5102040816326531,
+    "support": 32.0
+  }
+}
+Experimento: svd
+
+Dataset POZZI: 
+{
+  "0": {
+    "precision": 0.6451612903225806,
+    "recall": 1.0,
+    "f1-score": 0.7843137254901961,
+    "support": 20.0
+  },
+  "1": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 2.0
+  },
+  "2": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 4.0
+  },
+  "3": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 1.0
+  },
+  "4": {
+    "precision": 1.0,
+    "recall": 0.25,
+    "f1-score": 0.4,
+    "support": 4.0
+  },
+  "5": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 1.0
+  },
+  "accuracy": 0.65625,
+  "macro avg": {
+    "precision": 0.27419354838709675,
+    "recall": 0.20833333333333334,
+    "f1-score": 0.19738562091503267,
+    "support": 32.0
+  },
+  "weighted avg": {
+    "precision": 0.5282258064516129,
+    "recall": 0.65625,
+    "f1-score": 0.5401960784313725,
+    "support": 32.0
+  }
+}
+Experimento: deepwalk
+
+Dataset POZZI: 
+{
+  "0": {
+    "precision": 0.6451612903225806,
+    "recall": 1.0,
+    "f1-score": 0.7843137254901961,
+    "support": 20.0
+  },
+  "1": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 2.0
+  },
+  "2": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 4.0
+  },
+  "3": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 1.0
+  },
+  "4": {
+    "precision": 1.0,
+    "recall": 0.25,
+    "f1-score": 0.4,
+    "support": 4.0
+  },
+  "5": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 1.0
+  },
+  "accuracy": 0.65625,
+  "macro avg": {
+    "precision": 0.27419354838709675,
+    "recall": 0.20833333333333334,
+    "f1-score": 0.19738562091503267,
+    "support": 32.0
+  },
+  "weighted avg": {
+    "precision": 0.5282258064516129,
+    "recall": 0.65625,
+    "f1-score": 0.5401960784313725,
+    "support": 32.0
+  }
+}
+Experimento: node2vec
+
+Dataset POZZI: 
+{
+  "0": {
+    "precision": 0.6451612903225806,
+    "recall": 1.0,
+    "f1-score": 0.7843137254901961,
+    "support": 20.0
+  },
+  "1": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 2.0
+  },
+  "2": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 4.0
+  },
+  "3": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 1.0
+  },
+  "4": {
+    "precision": 1.0,
+    "recall": 0.25,
+    "f1-score": 0.4,
+    "support": 4.0
+  },
+  "5": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 1.0
+  },
+  "accuracy": 0.65625,
+  "macro avg": {
+    "precision": 0.27419354838709675,
+    "recall": 0.20833333333333334,
+    "f1-score": 0.19738562091503267,
+    "support": 32.0
+  },
+  "weighted avg": {
+    "precision": 0.5282258064516129,
+    "recall": 0.65625,
+    "f1-score": 0.5401960784313725,
+    "support": 32.0
+  }
+}
+Experimento: tadw
+
+Dataset POZZI: 
+{
+  "0": {
+    "precision": 0.6129032258064516,
+    "recall": 0.95,
+    "f1-score": 0.7450980392156863,
+    "support": 20.0
+  },
+  "1": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 2.0
+  },
+  "2": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 4.0
+  },
+  "3": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 1.0
+  },
+  "4": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 4.0
+  },
+  "5": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 1.0
+  },
+  "accuracy": 0.59375,
+  "macro avg": {
+    "precision": 0.10215053763440861,
+    "recall": 0.15833333333333333,
+    "f1-score": 0.12418300653594772,
+    "support": 32.0
+  },
+  "weighted avg": {
+    "precision": 0.38306451612903225,
+    "recall": 0.59375,
+    "f1-score": 0.46568627450980393,
+    "support": 32.0
+  }
+}

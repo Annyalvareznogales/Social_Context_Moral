@@ -1,0 +1,154 @@
+
+Experimento: baseline
+
+Dataset POZZI: 
+{
+  "0": {
+    "precision": 0.7333333333333333,
+    "recall": 0.6470588235294118,
+    "f1-score": 0.6875,
+    "support": 17.0
+  },
+  "1": {
+    "precision": 0.6470588235294118,
+    "recall": 0.7333333333333333,
+    "f1-score": 0.6875,
+    "support": 15.0
+  },
+  "accuracy": 0.6875,
+  "macro avg": {
+    "precision": 0.6901960784313725,
+    "recall": 0.6901960784313725,
+    "f1-score": 0.6875,
+    "support": 32.0
+  },
+  "weighted avg": {
+    "precision": 0.6928921568627451,
+    "recall": 0.6875,
+    "f1-score": 0.6875,
+    "support": 32.0
+  }
+}
+
+
+Experimento: svd
+
+Dataset POZZI: 
+{
+  "0": {
+    "precision": 0.5,
+    "recall": 0.7058823529411765,
+    "f1-score": 0.5853658536585366,
+    "support": 17.0
+  },
+  "1": {
+    "precision": 0.375,
+    "recall": 0.2,
+    "f1-score": 0.2608695652173913,
+    "support": 15.0
+  },
+  "accuracy": 0.46875,
+  "macro avg": {
+    "precision": 0.4375,
+    "recall": 0.4529411764705883,
+    "f1-score": 0.4231177094379639,
+    "support": 32.0
+  },
+  "weighted avg": {
+    "precision": 0.44140625,
+    "recall": 0.46875,
+    "f1-score": 0.4332582184517497,
+    "support": 32.0
+  }
+}
+
+Experimento: deepwalk
+
+Dataset POZZI: 
+{
+  "0": {
+    "precision": 0.5,
+    "recall": 0.6470588235294118,
+    "f1-score": 0.5641025641025641,
+    "support": 17.0
+  },
+  "1": {
+    "precision": 0.4,
+    "recall": 0.26666666666666666,
+    "f1-score": 0.32,
+    "support": 15.0
+  },
+  "accuracy": 0.46875,
+  "macro avg": {
+    "precision": 0.45,
+    "recall": 0.45686274509803926,
+    "f1-score": 0.4420512820512821,
+    "support": 32.0
+  },
+  "weighted avg": {
+    "precision": 0.453125,
+    "recall": 0.46875,
+    "f1-score": 0.44967948717948714,
+    "support": 32.0
+  }
+}
+Experimento: node2vec
+
+Dataset POZZI: 
+{
+  "0": {
+    "precision": 0.5263157894736842,
+    "recall": 0.5882352941176471,
+    "f1-score": 0.5555555555555556,
+    "support": 17.0
+  },
+  "1": {
+    "precision": 0.46153846153846156,
+    "recall": 0.4,
+    "f1-score": 0.42857142857142855,
+    "support": 15.0
+  },
+  "accuracy": 0.5,
+  "macro avg": {
+    "precision": 0.4939271255060729,
+    "recall": 0.49411764705882355,
+    "f1-score": 0.4920634920634921,
+    "support": 32.0
+  },
+  "weighted avg": {
+    "precision": 0.4959514170040486,
+    "recall": 0.5,
+    "f1-score": 0.49603174603174605,
+    "support": 32.0
+  }
+}
+Experimento: tadw
+
+Dataset POZZI: 
+{
+  "0": {
+    "precision": 0.6666666666666666,
+    "recall": 0.7058823529411765,
+    "f1-score": 0.6857142857142857,
+    "support": 17.0
+  },
+  "1": {
+    "precision": 0.6428571428571429,
+    "recall": 0.6,
+    "f1-score": 0.6206896551724138,
+    "support": 15.0
+  },
+  "accuracy": 0.65625,
+  "macro avg": {
+    "precision": 0.6547619047619048,
+    "recall": 0.6529411764705882,
+    "f1-score": 0.6532019704433498,
+    "support": 32.0
+  },
+  "weighted avg": {
+    "precision": 0.6555059523809523,
+    "recall": 0.65625,
+    "f1-score": 0.6552339901477833,
+    "support": 32.0
+  }
+}

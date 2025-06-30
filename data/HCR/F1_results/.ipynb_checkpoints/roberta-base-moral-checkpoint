@@ -1,0 +1,217 @@
+
+Experimento: svd
+
+Dataset HCR: 1
+{
+  "0": {
+    "precision": 0.7733333333333333,
+    "recall": 0.7837837837837838,
+    "f1-score": 0.7785234899328859,
+    "support": 74.0
+  },
+  "1": {
+    "precision": 0.42857142857142855,
+    "recall": 0.5294117647058824,
+    "f1-score": 0.47368421052631576,
+    "support": 17.0
+  },
+  "2": {
+    "precision": 0.4,
+    "recall": 0.42857142857142855,
+    "f1-score": 0.41379310344827586,
+    "support": 14.0
+  },
+  "3": {
+    "precision": 1.0,
+    "recall": 0.13333333333333333,
+    "f1-score": 0.23529411764705882,
+    "support": 15.0
+  },
+  "4": {
+    "precision": 0.15789473684210525,
+    "recall": 0.3,
+    "f1-score": 0.20689655172413793,
+    "support": 10.0
+  },
+  "5": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 2.0
+  },
+  "accuracy": 0.5909090909090909,
+  "macro avg": {
+    "precision": 0.45996658312447786,
+    "recall": 0.36251671839907135,
+    "f1-score": 0.3513652455464457,
+    "support": 132.0
+  },
+  "weighted avg": {
+    "precision": 0.6567524872788031,
+    "recall": 0.5909090909090909,
+    "f1-score": 0.5837488679106367,
+    "support": 132.0
+  }
+}
+Experimento: deepwalk
+
+Dataset HCR: 1
+{
+  "0": {
+    "precision": 0.7733333333333333,
+    "recall": 0.7837837837837838,
+    "f1-score": 0.7785234899328859,
+    "support": 74.0
+  },
+  "1": {
+    "precision": 0.47619047619047616,
+    "recall": 0.5882352941176471,
+    "f1-score": 0.5263157894736842,
+    "support": 17.0
+  },
+  "2": {
+    "precision": 0.4,
+    "recall": 0.42857142857142855,
+    "f1-score": 0.41379310344827586,
+    "support": 14.0
+  },
+  "3": {
+    "precision": 1.0,
+    "recall": 0.06666666666666667,
+    "f1-score": 0.125,
+    "support": 15.0
+  },
+  "4": {
+    "precision": 0.15,
+    "recall": 0.3,
+    "f1-score": 0.2,
+    "support": 10.0
+  },
+  "5": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 2.0
+  },
+  "accuracy": 0.5909090909090909,
+  "macro avg": {
+    "precision": 0.4665873015873016,
+    "recall": 0.3612095288565877,
+    "f1-score": 0.34060539714247434,
+    "support": 132.0
+  },
+  "weighted avg": {
+    "precision": 0.6622871572871573,
+    "recall": 0.5909090909090909,
+    "f1-score": 0.5774712888209246,
+    "support": 132.0
+  }
+}
+Experimento: node2vec
+
+Dataset HCR: 1
+{
+  "0": {
+    "precision": 0.7866666666666666,
+    "recall": 0.7972972972972973,
+    "f1-score": 0.7919463087248322,
+    "support": 74.0
+  },
+  "1": {
+    "precision": 0.47368421052631576,
+    "recall": 0.5294117647058824,
+    "f1-score": 0.5,
+    "support": 17.0
+  },
+  "2": {
+    "precision": 0.35294117647058826,
+    "recall": 0.42857142857142855,
+    "f1-score": 0.3870967741935484,
+    "support": 14.0
+  },
+  "3": {
+    "precision": 1.0,
+    "recall": 0.13333333333333333,
+    "f1-score": 0.23529411764705882,
+    "support": 15.0
+  },
+  "4": {
+    "precision": 0.21052631578947367,
+    "recall": 0.4,
+    "f1-score": 0.27586206896551724,
+    "support": 10.0
+  },
+  "5": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 2.0
+  },
+  "accuracy": 0.6060606060606061,
+  "macro avg": {
+    "precision": 0.47063639490884074,
+    "recall": 0.3814356373179903,
+    "f1-score": 0.36503321158849283,
+    "support": 132.0
+  },
+  "weighted avg": {
+    "precision": 0.6690333677330581,
+    "recall": 0.6060606060606061,
+    "f1-score": 0.5970561677174873,
+    "support": 132.0
+  }
+}
+Experimento: tadw
+
+Dataset HCR: 1
+{
+  "0": {
+    "precision": 0.7971014492753623,
+    "recall": 0.7432432432432432,
+    "f1-score": 0.7692307692307693,
+    "support": 74.0
+  },
+  "1": {
+    "precision": 0.38095238095238093,
+    "recall": 0.47058823529411764,
+    "f1-score": 0.42105263157894735,
+    "support": 17.0
+  },
+  "2": {
+    "precision": 0.2,
+    "recall": 0.21428571428571427,
+    "f1-score": 0.20689655172413793,
+    "support": 14.0
+  },
+  "3": {
+    "precision": 0.5,
+    "recall": 0.06666666666666667,
+    "f1-score": 0.11764705882352941,
+    "support": 15.0
+  },
+  "4": {
+    "precision": 0.12,
+    "recall": 0.3,
+    "f1-score": 0.17142857142857143,
+    "support": 10.0
+  },
+  "5": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 2.0
+  },
+  "accuracy": 0.5303030303030303,
+  "macro avg": {
+    "precision": 0.33300897170462385,
+    "recall": 0.29913064324829025,
+    "f1-score": 0.28104259713099256,
+    "support": 132.0
+  },
+  "weighted avg": {
+    "precision": 0.5830431645649038,
+    "recall": 0.5303030303030303,
+    "f1-score": 0.5337614771264819,
+    "support": 132.0
+  }
+}

@@ -1,0 +1,270 @@
+Experimento: baseline
+
+Dataset HCR: 
+{
+  "0": {
+    "precision": 0.7391304347826086,
+    "recall": 0.918918918918919,
+    "f1-score": 0.8192771084337349,
+    "support": 74.0
+  },
+  "1": {
+    "precision": 0.36363636363636365,
+    "recall": 0.47058823529411764,
+    "f1-score": 0.41025641025641024,
+    "support": 17.0
+  },
+  "2": {
+    "precision": 0.4166666666666667,
+    "recall": 0.35714285714285715,
+    "f1-score": 0.38461538461538464,
+    "support": 14.0
+  },
+  "3": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 15.0
+  },
+  "4": {
+    "precision": 0.4,
+    "recall": 0.2,
+    "f1-score": 0.26666666666666666,
+    "support": 10.0
+  },
+  "5": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 2.0
+  },
+  "accuracy": 0.6287878787878788,
+  "macro avg": {
+    "precision": 0.3199055775142732,
+    "recall": 0.3244416685593156,
+    "f1-score": 0.3134692616620327,
+    "support": 132.0
+  },
+  "weighted avg": {
+    "precision": 0.5356879067353375,
+    "recall": 0.6287878787878788,
+    "f1-score": 0.5731223261343744,
+    "support": 132.0
+  }
+}
+Experimento: svd
+
+Dataset HCR: 
+{
+  "0": {
+    "precision": 0.7362637362637363,
+    "recall": 0.9054054054054054,
+    "f1-score": 0.8121212121212121,
+    "support": 74.0
+  },
+  "1": {
+    "precision": 0.3684210526315789,
+    "recall": 0.4117647058823529,
+    "f1-score": 0.3888888888888889,
+    "support": 17.0
+  },
+  "2": {
+    "precision": 0.3333333333333333,
+    "recall": 0.35714285714285715,
+    "f1-score": 0.3448275862068966,
+    "support": 14.0
+  },
+  "3": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 15.0
+  },
+  "4": {
+    "precision": 0.14285714285714285,
+    "recall": 0.1,
+    "f1-score": 0.11764705882352941,
+    "support": 10.0
+  },
+  "5": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 2.0
+  },
+  "accuracy": 0.6060606060606061,
+  "macro avg": {
+    "precision": 0.2634792108476319,
+    "recall": 0.29571882807176925,
+    "f1-score": 0.2772474576734212,
+    "support": 132.0
+  },
+  "weighted avg": {
+    "precision": 0.5063781247991775,
+    "recall": 0.6060606060606061,
+    "f1-score": 0.5508495272970656,
+    "support": 132.0
+  }
+}
+Experimento: deepwalk
+
+Dataset HCR: 
+{
+  "0": {
+    "precision": 0.7333333333333333,
+    "recall": 0.8918918918918919,
+    "f1-score": 0.8048780487804879,
+    "support": 74.0
+  },
+  "1": {
+    "precision": 0.375,
+    "recall": 0.35294117647058826,
+    "f1-score": 0.36363636363636365,
+    "support": 17.0
+  },
+  "2": {
+    "precision": 0.3333333333333333,
+    "recall": 0.35714285714285715,
+    "f1-score": 0.3448275862068966,
+    "support": 14.0
+  },
+  "3": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 15.0
+  },
+  "4": {
+    "precision": 0.36363636363636365,
+    "recall": 0.4,
+    "f1-score": 0.38095238095238093,
+    "support": 10.0
+  },
+  "5": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 2.0
+  },
+  "accuracy": 0.6136363636363636,
+  "macro avg": {
+    "precision": 0.30088383838383836,
+    "recall": 0.3336626542508896,
+    "f1-score": 0.3157157299293548,
+    "support": 132.0
+  },
+  "weighted avg": {
+    "precision": 0.5223083103764923,
+    "recall": 0.6136363636363636,
+    "f1-score": 0.5634841197575352,
+    "support": 132.0
+  }
+}
+Experimento: node2vec
+
+Dataset HCR: 
+{
+  "0": {
+    "precision": 0.75,
+    "recall": 0.8918918918918919,
+    "f1-score": 0.8148148148148148,
+    "support": 74.0
+  },
+  "1": {
+    "precision": 0.34782608695652173,
+    "recall": 0.47058823529411764,
+    "f1-score": 0.4,
+    "support": 17.0
+  },
+  "2": {
+    "precision": 0.35714285714285715,
+    "recall": 0.35714285714285715,
+    "f1-score": 0.35714285714285715,
+    "support": 14.0
+  },
+  "3": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 15.0
+  },
+  "4": {
+    "precision": 0.2857142857142857,
+    "recall": 0.2,
+    "f1-score": 0.23529411764705882,
+    "support": 10.0
+  },
+  "5": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 2.0
+  },
+  "accuracy": 0.6136363636363636,
+  "macro avg": {
+    "precision": 0.2901138716356108,
+    "recall": 0.3199371640548111,
+    "f1-score": 0.3012086316007885,
+    "support": 132.0
+  },
+  "weighted avg": {
+    "precision": 0.5247741389045738,
+    "recall": 0.6136363636363636,
+    "f1-score": 0.5640093747936885,
+    "support": 132.0
+  }
+}
+Experimento: tadw
+
+Dataset HCR: 
+{
+  "0": {
+    "precision": 0.7528089887640449,
+    "recall": 0.9054054054054054,
+    "f1-score": 0.8220858895705522,
+    "support": 74.0
+  },
+  "1": {
+    "precision": 0.3181818181818182,
+    "recall": 0.4117647058823529,
+    "f1-score": 0.358974358974359,
+    "support": 17.0
+  },
+  "2": {
+    "precision": 0.3333333333333333,
+    "recall": 0.35714285714285715,
+    "f1-score": 0.3448275862068966,
+    "support": 14.0
+  },
+  "3": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 15.0
+  },
+  "4": {
+    "precision": 0.16666666666666666,
+    "recall": 0.1,
+    "f1-score": 0.125,
+    "support": 10.0
+  },
+  "5": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 2.0
+  },
+  "accuracy": 0.6060606060606061,
+  "macro avg": {
+    "precision": 0.2618318011576439,
+    "recall": 0.29571882807176925,
+    "f1-score": 0.2751479724586346,
+    "support": 132.0
+  },
+  "weighted avg": {
+    "precision": 0.5109870409921482,
+    "recall": 0.6060606060606061,
+    "f1-score": 0.5531401980127388,
+    "support": 132.0
+  }
+}

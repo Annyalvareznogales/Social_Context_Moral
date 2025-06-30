@@ -1,0 +1,154 @@
+
+Experimento: baseline
+
+Dataset OMC: 
+{
+  "0": {
+    "precision": 0.8105726872246696,
+    "recall": 0.8761904761904762,
+    "f1-score": 0.8421052631578947,
+    "support": 210.0
+  },
+  "1": {
+    "precision": 0.7868852459016393,
+    "recall": 0.6906474820143885,
+    "f1-score": 0.735632183908046,
+    "support": 139.0
+  },
+  "accuracy": 0.8022922636103151,
+  "macro avg": {
+    "precision": 0.7987289665631545,
+    "recall": 0.7834189791024324,
+    "f1-score": 0.7888687235329703,
+    "support": 349.0
+  },
+  "weighted avg": {
+    "precision": 0.8011384340902822,
+    "recall": 0.8022922636103151,
+    "f1-score": 0.7996990797317373,
+    "support": 349.0
+  }
+}
+
+
+Experimento: svd
+
+Dataset OMC: 
+{
+  "0": {
+    "precision": 0.8214285714285714,
+    "recall": 0.8761904761904762,
+    "f1-score": 0.847926267281106,
+    "support": 210.0
+  },
+  "1": {
+    "precision": 0.792,
+    "recall": 0.7122302158273381,
+    "f1-score": 0.75,
+    "support": 139.0
+  },
+  "accuracy": 0.8108882521489972,
+  "macro avg": {
+    "precision": 0.8067142857142857,
+    "recall": 0.7942103460089072,
+    "f1-score": 0.7989631336405529,
+    "support": 349.0
+  },
+  "weighted avg": {
+    "precision": 0.8097077363896849,
+    "recall": 0.8108882521489972,
+    "f1-score": 0.8089241149829004,
+    "support": 349.0
+  }
+}
+Experimento: deepwalk
+
+Dataset OMC: 
+{
+  "0": {
+    "precision": 0.7896995708154506,
+    "recall": 0.8761904761904762,
+    "f1-score": 0.8306997742663657,
+    "support": 210.0
+  },
+  "1": {
+    "precision": 0.7758620689655172,
+    "recall": 0.6474820143884892,
+    "f1-score": 0.7058823529411765,
+    "support": 139.0
+  },
+  "accuracy": 0.7851002865329513,
+  "macro avg": {
+    "precision": 0.782780819890484,
+    "recall": 0.7618362452894827,
+    "f1-score": 0.7682910636037711,
+    "support": 349.0
+  },
+  "weighted avg": {
+    "precision": 0.7841883594769384,
+    "recall": 0.7851002865329513,
+    "f1-score": 0.7809873915609177,
+    "support": 349.0
+  }
+}
+
+Experimento: node2vec
+
+Dataset POZZI: 
+{
+  "0": {
+    "precision": 0.7957446808510639,
+    "recall": 0.8904761904761904,
+    "f1-score": 0.8404494382022472,
+    "support": 210.0
+  },
+  "1": {
+    "precision": 0.7982456140350878,
+    "recall": 0.6546762589928058,
+    "f1-score": 0.7193675889328063,
+    "support": 139.0
+  },
+  "accuracy": 0.7965616045845272,
+  "macro avg": {
+    "precision": 0.7969951474430759,
+    "recall": 0.772576224734498,
+    "f1-score": 0.7799085135675268,
+    "support": 349.0
+  },
+  "weighted avg": {
+    "precision": 0.7967407545260762,
+    "recall": 0.7965616045845272,
+    "f1-score": 0.7922248621321833,
+    "support": 349.0
+  }
+}
+Experimento: tadw
+
+Dataset OMC: 
+{
+  "0": {
+    "precision": 0.8078602620087336,
+    "recall": 0.8809523809523809,
+    "f1-score": 0.8428246013667426,
+    "support": 210.0
+  },
+  "1": {
+    "precision": 0.7916666666666666,
+    "recall": 0.6834532374100719,
+    "f1-score": 0.7335907335907336,
+    "support": 139.0
+  },
+  "accuracy": 0.8022922636103151,
+  "macro avg": {
+    "precision": 0.7997634643377001,
+    "recall": 0.7822028091812264,
+    "f1-score": 0.7882076674787382,
+    "support": 349.0
+  },
+  "weighted avg": {
+    "precision": 0.8014106638638989,
+    "recall": 0.8022922636103151,
+    "f1-score": 0.7993188488714266,
+    "support": 349.0
+  }
+}
