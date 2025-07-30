@@ -1,26 +1,51 @@
-# Social_Context_Moral
+# Enriching Language Models with Network Knowledge for Sentiment and Moral Assessment
+
+This repository contains the code and supporting resources for the paper:  
+**"Enriching Language Models with Network Knowledge for Sentiment and Moral Assessment"**  
+*Anny Álvarez, Oscar Araque*
 
 
-Package                        Version
------------------------------- --------------
-- accelerate                     0.26.0
-- imbalanced-learn               0.13.0
-- imblearn                       0.0
-- matplotlib                     3.10.1
-- matplotlib-inline              0.1.7
-- networkx                       3.5
-- nltk                           3.9.1
-- node2vec                       0.5.0
-- numpy                          2.2.5
-- pandas                         2.2.3
-- safetensors                    0.5.2
-- scikit-learn                   1.5.2
-- scikit-network                 0.33.1
-- scikit-surprise                1.1.4
-- scipy                          1.13.1
-- seaborn                        0.13.2
-- statsmodels                    0.14.4
-- tf_keras                       2.18.0
-- tokenizers                     0.21.0
-- torch                          2.5.1+cu121
+## 📁 Repository Structure
+
+This repository is organized as follows:
+
+- **`data/`**  
+  Contains the moral lexicons used for annotation, including **MFD** and **LIWC**.  
+  ⚠️ *The datasets used in the experiments are not publicly available.*  
+  To request access, please contact: [a.anogales@upm.es](mailto:a.anogales@upm.es)
+
+- **`models/`**  
+  Stores the user embeddings generated through various node representation learning techniques:
+  - SVD
+  - DeepWalk
+  - Node2Vec
+  - TADW
+
+- **`src/`**  
+  Contains the main implementation notebooks:
+  
+  - `Moral_annotation.ipynb`:  
+    - Performs moral annotation using fine tuned models:
+    - Applies **MoralBERT** from Hugging Face  
+    - Applies GSI models based on **RoBERTa** for both moral trait and polarity prediction  
+    - Uses lexicons: **MFD** and **LIWC**  
+    - Includes a **perspective-based moral model**  
+    - Handles label selection (with and without polarity)  
+    - Computes inter-annotator agreement: **Cohen’s Kappa** and **Fleiss’ Kappa**  
+    - Merges annotated data into `.pkl` format and saves embeddings in `.npy`
+
+  - `Data_exploration_baseline_models.ipynb`:  
+    - Explores and visualizes the datasets  
+    - Generates user embeddings reflecting social context  
+    - Implements baseline classification models (via Hugging Face) using:
+      - BERT  
+      - RoBERTa  
+      - LLaMA  
+      - DeepSeek 
+
+  - `Social_context_Adition.ipynb`:  
+    - Defines the architecture to integrate social context into the classification process  
+    - Fine-tunes models for **sentiment** and **moral value** prediction  
+    - Saves the final classification results  
+
 
